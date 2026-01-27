@@ -4,7 +4,6 @@ import json
 app = Flask(__name__)
 
 @app.route('/add', methods=['GET', 'POST'])
-@app.route('/add', methods=['GET', 'POST'])
 def add():
 
     # If the user submitted the form

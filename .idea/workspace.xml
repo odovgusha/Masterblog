@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54fb33b5-6456-4047-9042-a381a33f243b" name="Changes" comment="updated add function">
-      <change afterPath="$PROJECT_DIR$/blog_posts.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/add.html" afterDir="false" />
+    <list default="true" id="54fb33b5-6456-4047-9042-a381a33f243b" name="Changes" comment="added json file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog_posts.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog_posts.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +110,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769534869735</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added json file">
+      <option name="closed" value="true" />
+      <created>1769552472462</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1769552472462</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -117,6 +126,7 @@
     <MESSAGE value="initial commit app.py" />
     <MESSAGE value="added routes and data structure" />
     <MESSAGE value="updated add function" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated add function" />
+    <MESSAGE value="added json file" />
+    <option name="LAST_COMMIT_MESSAGE" value="added json file" />
   </component>
 </project>
