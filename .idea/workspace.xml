@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54fb33b5-6456-4047-9042-a381a33f243b" name="Changes" comment="added json file">
+    <list default="true" id="54fb33b5-6456-4047-9042-a381a33f243b" name="Changes" comment="removed a line in app and wrote index.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog_posts.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog_posts.json" afterDir="false" />
@@ -118,7 +118,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769552472462</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="removed a line in app and wrote index.html">
+      <option name="closed" value="true" />
+      <created>1769553092086</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1769553092086</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -127,6 +135,7 @@
     <MESSAGE value="added routes and data structure" />
     <MESSAGE value="updated add function" />
     <MESSAGE value="added json file" />
-    <option name="LAST_COMMIT_MESSAGE" value="added json file" />
+    <MESSAGE value="removed a line in app and wrote index.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed a line in app and wrote index.html" />
   </component>
 </project>

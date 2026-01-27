@@ -42,6 +42,17 @@ def load_blog_posts():
     with open('blog_posts.json', 'r') as file:
         return json.load(file)
 
+@app.route('/delete/<int:post_id>')
+def delete(post_id):
+
+    posts = load_blog_posts()
+
+    posts = [post for post in posts if post['id'] != post_id]
+
+    save_blog_posts(posts)
+
+    return redirect(url_for('index'))
+
 @app.route('/')
 def index():
     blog_posts = load_blog_posts()
