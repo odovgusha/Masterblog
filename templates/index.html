@@ -3,13 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Blog</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
 
 <h1>Blog Posts</h1>
 
-<!-- Link to Add new post -->
 <a href="{{ url_for('add') }}" class="btn-add">➕ Add new post</a>
 <hr>
 
@@ -19,8 +18,9 @@
     <p><strong>Author:</strong> {{ post.author }}</p>
     <p>{{ post.content }}</p>
 
-    <!-- Delete button -->
-    <a href="/delete/{{ post.id }}" class="btn-delete">Delete</a>
+    <a href="{{ url_for('update', post_id=post['id']) }}" class="btn-update">Update</a>
+
+    <a href="{{ url_for('delete', post_id=post['id']) }}" class="btn-delete">Delete</a>
     <hr>
   </article>
 {% endfor %}

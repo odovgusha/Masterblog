@@ -1,62 +1,41 @@
-/* General body styles */
 body {
     font-family: Arial, sans-serif;
     max-width: 800px;
     margin: 20px auto;
     padding: 0 15px;
-    background: #121212; /* dark background */
-    color: #e0e0e0; /* light text */
+    background: #121212;
+    color: #e0e0e0;
 }
 
-/* Headings */
-h1 {
+h1, h2 {
+    color: #fff;
     text-align: center;
-    color: #ffffff;
 }
 
-h2 {
-    color: #ffffff;
-}
-
-/* Blog post card */
 .post, .form-container {
-    background: #1e1e1e; /* dark card background */
+    background: #1e1e1e;
     padding: 15px 20px;
     margin-bottom: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.6);
 }
 
-/* Horizontal line */
 hr {
     border: none;
     border-top: 1px solid #333;
 }
 
-/* Links */
 a {
     text-decoration: none;
-    color: #bb86fc; /* light purple for links */
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-/* Buttons */
-.btn-add, .btn-delete {
-    display: inline-block;
-    padding: 5px 10px;
-    border-radius: 5px;
-    font-size: 0.9rem;
-    margin-top: 5px;
-    border: none;
-    cursor: pointer;
-    color: #fff;
 }
 
 .btn-add {
-    background-color: #03dac6; /* teal */
+    background-color: #03dac6;
+    color: #000;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+    display: inline-block;
 }
 
 .btn-add:hover {
@@ -64,19 +43,33 @@ a:hover {
 }
 
 .btn-delete {
-    background-color: #cf6679; /* reddish */
+    background-color: #cf6679;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
 }
 
 .btn-delete:hover {
     background-color: #b84f63;
 }
 
-/* Form styles */
+.btn-update {
+    background-color: #ffd600;
+    color: #000;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.btn-update:hover {
+    background-color: #ffca00;
+}
+
 .form-container label {
     display: block;
     margin-top: 10px;
     font-weight: bold;
-    color: #e0e0e0;
 }
 
 .form-container input,
@@ -86,7 +79,7 @@ a:hover {
     margin-top: 5px;
     border-radius: 5px;
     border: 1px solid #444;
-    background: #2b2b2b; /* dark input */
+    background: #2b2b2b;
     color: #fff;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
