@@ -1,0 +1,102 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 15px;
+    background: #121212; /* dark background */
+    color: #e0e0e0; /* light text */
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+h2 {
+    color: #ffffff;
+}
+
+/* Blog post card */
+.post, .form-container {
+    background: #1e1e1e; /* dark card background */
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.6);
+}
+
+/* Horizontal line */
+hr {
+    border: none;
+    border-top: 1px solid #333;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #bb86fc; /* light purple for links */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Buttons */
+.btn-add, .btn-delete {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    margin-top: 5px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+.btn-add {
+    background-color: #03dac6; /* teal */
+}
+
+.btn-add:hover {
+    background-color: #00c4b4;
+}
+
+.btn-delete {
+    background-color: #cf6679; /* reddish */
+}
+
+.btn-delete:hover {
+    background-color: #b84f63;
+}
+
+/* Form styles */
+.form-container label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #e0e0e0;
+}
+
+.form-container input,
+.form-container textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background: #2b2b2b; /* dark input */
+    color: #fff;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.form-container textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.form-buttons {
+    margin-top: 15px;
+}

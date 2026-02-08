@@ -1,15 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='/style.css') }}">
+</head>
+<body>
+
 <h1>Blog Posts</h1>
 
-<a href="{{ url_for('add') }}">➕ Add new post</a>
+<!-- Link to Add new post -->
+<a href="{{ url_for('add') }}" class="btn-add">➕ Add new post</a>
 <hr>
 
 {% for post in posts %}
-  <article>
+  <article class="post">
     <h2>{{ post.title }}</h2>
     <p><strong>Author:</strong> {{ post.author }}</p>
     <p>{{ post.content }}</p>
 
-    <a href="/delete/{{ post.id }}">Delete</a>
+    <!-- Delete button -->
+    <a href="/delete/{{ post.id }}" class="btn-delete">Delete</a>
     <hr>
   </article>
 {% endfor %}
+
+</body>
+</html>
